@@ -30,3 +30,6 @@ Yes
 
 
 Please provide your project's Twitter Thread (A tweet announcing you're joining the "Solana Consumer Hack" Hackathon, mentioning @SuperteamVN on it Filling ALL of this in is optional, but we suggest as-many-as-possible!
+
+
+![Alt text](/../main/banner_image.png?raw=true "Black Red Modern Fitness Gym Promotion Banner")
