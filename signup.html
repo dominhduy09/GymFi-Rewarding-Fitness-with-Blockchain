@@ -15,9 +15,8 @@
             <ul>
                 <li><a href="index.html">Trang Chủ</a></li>
                 <li><a href="login.html">Đăng Nhập</a></li>
-                <li><a href="calculator.html">Tính Calories</a></li>
+                <li><a href="calculator.html">Tính calories</a></li>
                 <li><a href="about.html">Giới Thiệu</a></li>
-                <li><a href="signup.html">Đăng ký</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +24,7 @@
         <div class="form-container">
             <div class="signup-form">
                 <h2>Đăng Ký</h2>
-                <form>
+                <form id="signup-form">
                     <label for="new-username">Tên đăng nhập:</label>
                     <input type="text" id="new-username" name="new-username" required>
                     <label for="new-password">Mật khẩu:</label>
@@ -36,8 +35,16 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Vui Là 9</p>
+        <p>&copy; 2024 Trang web của chúng tôi</p>
     </footer>
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của form
+            // Thực hiện các thao tác đăng ký ở đây (ví dụ: gửi dữ liệu đến server)
+            // Sau khi đăng ký thành công, chuyển hướng đến trang chủ
+            window.location.href = 'index.html';
+        });
+    </script>
 </body>
 
 </html>
