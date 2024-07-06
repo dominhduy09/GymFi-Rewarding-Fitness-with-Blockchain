@@ -25,6 +25,7 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
+    color: inherit;
 }
 
 main {
@@ -141,4 +142,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Căn các mục menu vào giữa */
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 10px; /* Khoảng cách giữa các mục menu */
+    text-align: center; /* Căn nội dung trong mỗi mục menu vào giữa */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Màu chữ */
 }

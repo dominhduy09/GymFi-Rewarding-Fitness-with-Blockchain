@@ -9,6 +9,22 @@
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        .navbar-nav li a {
+            text-decoration: none; /* Loại bỏ dấu gạch dưới */
+            color: inherit; /* Kế thừa màu sắc từ thẻ cha */
+        }
+        .navbar-nav .nav-item {
+            padding: 0 10px; /* Khoảng cách giữa các mục menu */
+            text-align: center; /* Căn nội dung trong mỗi mục menu vào giữa */
+        }
+        .navbar-nav {
+            display: flex;
+            justify-content: center; /* Căn các mục menu vào giữa */
+            width: 100%;
+        }
+        .navbar {
+            background-color: #4CAF50; /* Màu nền */
+        }
         .carousel-item img {
             width: 100%;
         }
@@ -18,8 +34,8 @@
 <body>
     <header>
         <h1>Chào mừng đến với trang web Vui Là 9</h1>
-        <nav>
-            <ul>
+        <nav class="navbar navbar-expand-lg ">
+            <ul class="navbar-nav">
                 <li><a href="index.html">Trang Chủ</a></li>
                 <li><a href="login.html">Đăng Nhập</a></li>
                 <li><a href="calculator.html">Tính Calories</a></li>
